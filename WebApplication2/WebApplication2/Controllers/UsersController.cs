@@ -19,7 +19,7 @@ namespace WebApplication2.Controllers
         {
             try
             {
-                if (index < StaticDb.UsersName.Count)
+                if (index < 0)
                 {
                     return BadRequest("Indeksot ima negativna vrednost");
                 }
